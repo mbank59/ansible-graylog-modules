@@ -1,0 +1,14 @@
+namespace: dreamer_labs
+name: graylog_modules
+version: "1.0.0"
+readme: README.md
+authors:
+    - Whitney Champion
+dependencies:
+    
+license:
+    - GPL-3.0 License
+tags:
+    - demo
+    - collection
+repository: https://github.com/mbank59/ansible-graylog-modules.git

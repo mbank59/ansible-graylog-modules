@@ -107,7 +107,7 @@
         matching_type: "AND"
         remove_matches_from_default_stream: False
         rules:
-          - {"field":"message","type":1,"value":"test_stream rule","inverted": false,"description":"test_stream rule"}
+          - {"field":"message", "type":1, "value":"test_stream rule", "inverted": false, "description":"test_stream rule"}
 
     - name: Get stream from stream name query
       graylog_streams:
@@ -402,5 +402,5 @@
         group: "{{ item.group }}"
         role: "{{ item.role }}"
       with_items:
-        - { group : "ldap-group-admins", role : "Admin" }
-        - { group : "ldap-group-read", role : "Reader" }
+        - { group: "ldap-group-admins", role: "Admin" }
+        - { group: "ldap-group-read", role: "Reader" }
